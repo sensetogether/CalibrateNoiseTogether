@@ -1,0 +1,16 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <com.androidplot.xy.XYPlot
+        style="@style/APDefacto.Dark"
+        android:id="@+id/plotxy"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ap:label="@string/xyplot_title"
+        ap:rangeLabel="@string/plot_series1_name"
+        ap:domainLabel="@string/plot_series2_name"/>
+
+</LinearLayout>

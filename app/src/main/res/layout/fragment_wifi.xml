@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="150dip"
+        android:transcriptMode="alwaysScroll" >
+
+        <!-- Preview: listitem=@android:layout/simple_list_item_1 -->
+
+    </ListView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_gravity="bottom" >
+
+
+        <RadioGroup
+
+            android:id="@+id/approachCalib"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbSimpleCalib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Simple regression"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/robustCalib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Robust regression"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_gravity="bottom" >
+
+
+        <Button
+            android:id="@+id/buttonshouldCalibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_weight="0.10"
+            android:text="Calibrate"
+            android:visibility="invisible" />
+
+
+        <Button
+            android:id="@+id/buttoncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_weight="0.10"
+            android:text="Cancel"
+
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+
+</FrameLayout>

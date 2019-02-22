@@ -1,0 +1,94 @@
+<resources>
+
+
+    <!-- check box name  -->
+    <string name="plot">Plot Samples</string>
+    <string name="xyplot">Plot XY Samples</string>
+    <string name="file">Display Raw Samples</string>
+    <string name="regress">Display Regression Data</string>
+    <!-- Application name  -->
+    <string name="app_name">Calibrate Together</string>
+
+    <!-- message for service discovery -->
+    <string name="connect">Connect</string>
+    <string name="discover">Discover</string>
+    <string name="register">Register</string>
+    <string name="send">Send</string>
+
+
+    <!-- message for wifi direct with service discovery-->
+
+    <string name="finding_service">Discovering calibration services</string>
+    <string name="btn_send">Send</string>
+    <string name="txt_hint">Type Message</string>
+
+
+    <!-- message for wifi direct -->
+
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Launch Gallery</string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">ME</string>
+    <string name="label_peers">PEERS</string>
+
+
+    <!-- message appearing on the button -->
+    <string name="button_init">Init</string>
+
+    <string name="edit_message">Enter a sample</string>
+    <string name="url_message">Enter a URL</string>
+    <string name="button_send">Calibrate</string>
+    <string name="button_plot">Plot</string>
+    <string name="button_record">Record</string>
+    <string name="button_chat">chat</string>
+    <string name="button_locate">locate</string>
+    <string name="button_communicate">communicate</string>
+    <string name="button_regress">regress</string>
+    <string name="button_pop">pop</string>
+    <string name="button_meet">meet</string>
+    <string name="button_disco">disco</string>
+    <string name="button_wifi">p2p wifi</string>
+
+    <string name="title_activity_urlmessage">URLMessageActivity</string>
+
+    <!-- name of the file that contains the sound obtained locally -->
+    <!--
+        <string name="calibration_file_name">local_cbc.txt</string>
+        <string name="remote_calibration_file_name">remote_c.txt</string>
+     -->
+
+    <!-- information relating to ploting local and remote file  -->
+    <string name="plot_series1_name">Local Samples</string>
+    <string name="plot_series2_name">Remote Samples</string>
+    <string name="plot_title"> Noise (dB)</string>
+    <string name="plot_time">Time</string>
+
+    <!-- information relating to ploting calibration for regress  -->
+    <string name="xyplot_title">Calibration</string>
+    <string name="plot_series_name">Remote=f(Local)</string>
+
+    <string name="title_activity_regress_message">RegressMessageActivity</string>
+    <string name="title_activity_regression_message">RegressionMessageActivity</string>
+    <string name="title_activity_pop_message">PopMessageActivity</string>
+    <string name="title_activity_meet">MeetActivity</string>
+
+    <string name="title_activity_regress">RegressActivity</string>
+    <string name="title_activity_xyregress">XYRegressActivity</string>
+    <string name="title_activity_option">OptionActivity</string>
+    <string name="title_activity_calibrate">CalibrateActivity</string>
+    <string name="title_activity_manual_calibration">ManualCalibrationActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

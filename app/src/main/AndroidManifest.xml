@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.colibris">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" /> -->
+    <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        android:required="true" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.XYRegressActivity"></activity>
+        <activity android:name=".ui.FileContentActivity" />
+        <activity android:name=".ui.PlotMessageActivity" />
+        <activity android:name=".ui.OptionActivity" />
+        <activity android:name=".ui.SeeRegressActivity" />
+        <activity android:name=".ui.InitActivity" />
+        <activity android:name=".ui.PlotXYActivity" />
+        <activity android:name=".ui.RegressActivity" />
+        <activity android:name=".ui.CalibrateActivity" />
+        <activity android:name=".ui.FileActivity" />
+        <activity android:name=".ui.RecordMessageActivity" />
+        <activity android:name=".ui.WiFiServiceDiscoveryActivity" />
+        <activity
+            android:name=".ui.ManualCalibrationActivity"
+            android:label="@string/title_activity_manual_calibration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

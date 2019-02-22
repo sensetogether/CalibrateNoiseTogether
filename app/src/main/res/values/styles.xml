@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <!-- Customize your theme here. -->
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+
+
+        <!-- Customize your theme here.#81d4fa -->
+        <!-- Color of the application field #81d4fa 003C8F  283593      0E7494  0E7494 1C93AE       -->
+        <item name="colorPrimary">#1C93AE</item>
+
+        <!-- Color of the top top #82b3c9 001064 -->
+        <item name="colorPrimaryDark">#0E7494</item>
+
+        <!-- Color of the text calling the  application 001064  324551 -->
+
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FF9D21</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <style name="MyActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#0E7494</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- used for displyaing curves -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="boldText">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#d81b60</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#0E7494</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+
+    <style name="testText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#4B0082</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">#FF0000</item>
+    </style>
+
+
+</resources>

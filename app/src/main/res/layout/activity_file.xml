@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/RG"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio_plot">
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_plot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plot"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/radio_xyplot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xyplot"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/file"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_xyregress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XY Regress"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_regress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plot Regress alone"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_see_regress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regress Information"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_see_corr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calibrate"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+
+
+
+
+
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.colibris.ui.FileList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

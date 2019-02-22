@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="1000dp" />
+
+    <!-- Color of the application field inside the circle #b3e5fc 5e92f3 3f51b5 0E7494 1C93AE-->
+    <solid android:color="#1C93AE" />
+    <!-- Color of the application field inside the circle #e3f2fd 303f9f-->
+    <stroke
+        android:width="2dip"
+        android:color="#0E7494" />
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+</shape>

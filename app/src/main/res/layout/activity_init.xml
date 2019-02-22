@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/content_init_message"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textViewnode"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="0dp"
+            android:text="Node nb:"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/edittextnodenb"
+            android:layout_width="27dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="0dp"
+            android:ems="6"
+            android:inputType="text"
+            android:text="100"
+            android:textSize="10sp" />
+
+
+        <TextView
+            android:id="@+id/textViewhyperedgenb"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="0dp"
+            android:text="Nb of hyper edges:"
+            android:textSize="9sp" />
+
+        <EditText
+            android:id="@+id/edittexthyperedgenb"
+            android:layout_width="27dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="0dp"
+            android:ems="7"
+            android:inputType="text"
+            android:text="50"
+            android:textSize="9sp" />
+
+
+        <TextView
+            android:id="@+id/textViewrefnb"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="0dp"
+            android:text="Nb of references:"
+            android:textSize="9sp" />
+
+        <EditText
+            android:id="@+id/edittextrefnb"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="0dp"
+            android:ems="7"
+            android:inputType="text"
+            android:text="10"
+            android:textSize="9sp" />
+
+
+        <TextView
+            android:id="@+id/textViewrdvSize"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="0dp"
+            android:text="Rdv size:"
+            android:textSize="9sp" />
+
+        <EditText
+            android:id="@+id/edittextrdvsize"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="0dp"
+            android:ems="7"
+            android:inputType="text"
+            android:text="10"
+            android:textSize="9sp" />
+
+
+        <TextView
+            android:id="@+id/textViewnbtests"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="0dp"
+            android:text="Test Nb:"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/edittextnbtests"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="0dp"
+            android:ems="7"
+            android:inputType="text"
+            android:text="1"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/textViewgraph"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:text="To generate a graph, press one of the following buttons :"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+
+        <Button
+            android:id="@+id/random_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_input_add"
+            android:onClick="random_Message"
+            android:paddingTop="0dp"
+            android:text="Random Graph"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/connex_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_input_add"
+            android:onClick="connex_Message"
+            android:paddingTop="0dp"
+            android:text="Connex Graph"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/unconnex_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_input_add"
+            android:onClick="not_connex_Message"
+            android:paddingTop="0dp"
+            android:text="Disconnected Graph"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/shortest_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/btn_star_big_on"
+            android:onClick="shortest_Message"
+            android:paddingTop="0dp"
+            android:text="shortest "
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/calibration_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/btn_star_big_on"
+            android:onClick="calibration_Message"
+            android:paddingTop="0dp"
+            android:text="Calibrate"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/init_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_delete"
+            android:onClick="init_Message"
+            android:paddingTop="0dp"
+            android:text="Reset"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+</LinearLayout>
