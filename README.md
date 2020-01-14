@@ -8,7 +8,6 @@ For this purpose, the mobile phones exchange measurements to determine a calibra
 and the calibrated one(s) and thereby enables correcting the measurements of the non-calibrated phones(s). 
 Once calibrated, the phone can in turn, be used to calibrate others. Such a dynamic calibration, which is also known as multi-hop blind calibration, allows calibrating sensors under their deployment conditions and without involving the end-user. 
 
-
 Getting started 
 -----------------
 Step 1 - Download or clone the source code of #CalibrateNoiseTogether.  
