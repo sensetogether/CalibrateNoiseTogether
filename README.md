@@ -2,11 +2,11 @@
 Key Features 
 ------------
 #CalibrateNoiseTogether is an Android application that supports the distributed and opportunistic calibration of the microphone embedded in -or connected to- a mobile phone.   
-#CalibrateNoiseTogether is intended to operate in a fully decentralized way, and thereby leverages the presence of the nearby phones 
+#CalibrateNoiseTogether is intended to operate in a fully decentralized way and thereby leverages the presence of the nearby phones 
 that monitor the same noise level so as to perform a multi-party calibration while enhancing the overall accuracy gain. 
 For this purpose, the mobile phones exchange measurements to determine a calibration function, which describes the relationship between the non-calibrated measurements
 and the calibrated one(s) and thereby enables correcting the measurements of the non-calibrated phones(s). 
-Once calibrated, the phone can in turn, be used to calibrate others. Such a dynamic calibration, which is also known as multi-hop blind calibration, allows calibrating sensors under their deployment conditions and without involving the end-user. 
+Once calibrated, the phone can, in turn, be used to calibrate others. Such a dynamic calibration, which is also known as multi-hop blind calibration, allows calibrating sensors under their deployment conditions and without involving the end-user. 
 
 Getting started 
 -----------------
@@ -39,7 +39,7 @@ Step 2 - Change permissions
 * Storage,
 * Location. 
 
-In order to grant permission, open the Settings app and  tap Apps or Application Manager (depending on your phone, this may look different).
+In order to grant permission, open the Settings app and tap Apps or Application Manager (depending on your phone, this may look different).
 Tap the #CalibrateNoiseTogether app and then, tap Permissions and turn all the permissions on.
 
 
